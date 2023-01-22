@@ -1,7 +1,7 @@
 <template>
   <nav>
     <router-link to="/contact">Contact</router-link> |
-    <router-link to="/historique">Historique</router-link> |
+    <router-link to="/journal">Journal</router-link> |
     <router-link to="/clavier">Clavier</router-link>
     
   </nav>

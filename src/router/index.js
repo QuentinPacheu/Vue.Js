@@ -1,5 +1,9 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import ContactView from '@/views/ContactView.vue'
+import AjouterViews from '@/views/AjouterView.vue'
+import JournalViews from '@/views/JournalView.vue'
+import ClavierViews from '@/views/ClavierView.vue'
 
 const routes = [
   {
@@ -18,14 +22,14 @@ const routes = [
     component: AjouterViews
   },
   {
-    path: '/historique',
-    name: 'historique',
-    component: HistoriqueViews
+    path: '/journal',
+    name: 'journal',
+    component: JournalViews
   },
   {
-    path: '/recherche',
-    name: 'recherche',
-    component: RechercheViews
+    path: '/clavier',
+    name: 'clavier',
+    component: ClavierViews
   }
 ]
 
